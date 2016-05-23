@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Istok+Web:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/5657be49e6.css">
+
+
+
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <!-- Mobile Menu Button -->
+            <div id="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+            <main class="clear">
+                <div class="logo clear"><img src="img/logo.gif"><span>Urban Yoga</span></div>
+                <nav id="mobilenav">
+                    <div class="menu active">Dashboard
+                        <ul class="submenu">
+                            <li>Dashboard</li>
+                            <li class="active">Business Overview</li>
+                            <li>Schedule</li>
+                            <li>Reports</li>
+                        </ul>
+                    </div>
+                    <div class="menu">Sign In</div>
+                    <div class="menu">Classes</div>
+                    <div class="menu">Workshops</div>
+                    <div class="menu">Appointments</div>
+                    <div class="menu">Client Home</div>
+                    <div class="menu">Retail</div>
+                </nav>
+            </main>
+            <div class="block"></div>
+        </header>
+        <section id="one" class="clear">
+            <main>
+                <div class="left">
+                    <button type="button" id="myBtn" class="btn-new">
+                        <div id="plus-container">
+                            <div class="vertical">
+                                <div class="horizontal">
+                                </div>
+                            </div>
+                        </div>
+                    </button>
+                    <br>
+                    <span>New Program</span>
+                </div>
+                <div class="right">
+                    <div class="clear">
+
+<!-- Graph Boxes -->                        
+                        <div class="graph-box">
+                            <div class="title">
+                                Yoga Classes
+                                <span><i class="fa fa-pencil" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="month-chart">
+                                <span>Sales by month</span>
+
+
+                                <div id="chartContainer" style="height: 120px; width: 238px;">
+                                </div>
+
+
+
+                            </div>
+
+                            <div class="sales clear">
+                                <div class="salesm">
+                                    Total Monthly<span>Sales</span>
+                                </div>
+                                <div class="salesc">
+                                    Current<span>$23,483</span>
+                                </div>
+                                <div class="salesy">
+                                    1-Year
+                                    <!-- <span> -->
+
+                                    <div class="splineContainer" id="splineContainer" style="height: 60px; width: 70px;">
+                                    </div>
+
+                                    <!-- </span> -->
+                                </div>
+                            </div>
+
+                            <div class="expand1" id="expand1">
+                                <div class="expprice">
+                                    <span>Price Name</span>
+                                    <div>Monthly Unlimi...</div>
+                                    <div>Student 1 mont...</div>
+                                    <div>Single Visit</div>
+                                    <div>10 class pass</div>
+                                    <div>Student Single...</div>
+                                    <div>20 class pass</div>
+                                    <div>5 class pass</div>
+                                </div>
+                                <div class="expcurrent">
+                                    <span>Current</span>
+                                    <div>$4,260</div>
+                                    <div>$1,750</div>
+                                    <div>$560</div>
+                                    <div>$475</div>
+                                    <div>$445</div>
+                                    <div>$230</div>
+                                    <div>$520</div>
+                                </div>
+                                <div class="expyear">
+                                    <span>1-Year</span>
+                                    <img class="chartimg" src="img/charts.gif">
+                                </div>
+                            </div>
+                            <span id="more-btn1">more</span>
+                        </div>
+
+<!-- Graph Boxes 2 -->    
+                        <div class="graph-box">
+                            <div class="title">
+                                Yoga Privates
+                                <span><i class="fa fa-pencil" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="month-chart">
+                                <span>Sales by month</span>
+
+
+                                <div id="chartContainer2" style="height: 120px; width: 238px;">
+                                </div>
+
+
+
+                            </div>
+
+                            <div class="sales clear">
+                                <div class="salesm">
+                                    Total Monthly<span>Sales</span>
+                                </div>
+                                <div class="salesc">
+                                    Current<span>$23,483</span>
+                                </div>
+                                <div class="salesy">
+                                    1-Year
+                                    <!-- <span> -->
+
+                                    <div class="splineContainer" id="2" style="height: 60px; width: 70px;">
+                                    </div>
+
+                                    <!-- </span> -->
+                                </div>
+                            </div>
+
+                            <div class="expand1" id="expand2">
+                                <div class="expprice">
+                                    <span>Price Name</span>
+                                    <div>Monthly Unlimi...</div>
+                                    <div>Student 1 mont...</div>
+                                    <div>Single Visit</div>
+                                    <div>10 class pass</div>
+                                    <div>Student Single...</div>
+                                    <div>20 class pass</div>
+                                    <div>5 class pass</div>
+                                </div>
+                                <div class="expcurrent">
+                                    <span>Current</span>
+                                    <div>$4,260</div>
+                                    <div>$1,750</div>
+                                    <div>$560</div>
+                                    <div>$475</div>
+                                    <div>$445</div>
+                                    <div>$230</div>
+                                    <div>$520</div>
+                                </div>
+                                <div class="expyear">
+                                    <span>1-Year</span>
+                                    <img class="chartimg" src="img/charts.gif">
+                                </div>
+                            </div>
+                            <span id="more-btn2">more</span>
+                        </div>
+
+<!-- Graph Boxes 3 -->    
+                        <div class="graph-box">
+                            <div class="title">
+                                Yoga Duets
+                                <span><i class="fa fa-pencil" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="month-chart">
+                                <span>Sales by month</span>
+
+
+                                <div id="chartContainer3" style="height: 120px; width: 238px;">
+                                </div>
+
+
+
+                            </div>
+
+                            <div class="sales clear">
+                                <div class="salesm">
+                                    Total Monthly<span>Sales</span>
+                                </div>
+                                <div class="salesc">
+                                    Current<span>$23,483</span>
+                                </div>
+                                <div class="salesy">
+                                    1-Year
+                                    <!-- <span> -->
+
+                                    <div class="splineContainer" id="3" style="height: 60px; width: 70px;">
+                                    </div>
+
+                                    <!-- </span> -->
+                                </div>
+                            </div>
+
+                            <div class="expand1" id="expand3">
+                                <div class="expprice">
+                                    <span>Price Name</span>
+                                    <div>Monthly Unlimi...</div>
+                                    <div>Student 1 mont...</div>
+                                    <div>Single Visit</div>
+                                    <div>10 class pass</div>
+                                    <div>Student Single...</div>
+                                    <div>20 class pass</div>
+                                    <div>5 class pass</div>
+                                </div>
+                                <div class="expcurrent">
+                                    <span>Current</span>
+                                    <div>$4,260</div>
+                                    <div>$1,750</div>
+                                    <div>$560</div>
+                                    <div>$475</div>
+                                    <div>$445</div>
+                                    <div>$230</div>
+                                    <div>$520</div>
+                                </div>
+                                <div class="expyear">
+                                    <span>1-Year</span>
+                                    <img class="chartimg" src="img/charts.gif">
+                                </div>
+                            </div>
+                            <span id="more-btn3">more</span>
+                        </div>
+
+
+                    </div>
+
+                    <div class="chart">
+                        <div class="programs">
+                            <div>All Programs</div>
+                            <div>Open Practice<span>more</span></div>
+                            <div>Yoga Videos<span>more</span></div>
+                        </div>
+                        <div class="sales">
+                            <div>Monthly Sales</div>
+                            <div>$572.00</div>
+                            <div>$391.00</div>
+                        </div>
+                        <div class="attendance">
+                            <div>Monthly Attendance</div>
+                            <div>276 <span>visits</span></div>
+                            <div>82 <span>views</span></div>
+                        </div>
+
+
+
+
+
+                    </div>
+
+                </div>
+            </main>
+        </section>
+    </div>
+
+
+
+
+
+
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h2>New Program</h2>
+            </div>
+
+            <div class="modal-body clear">
+                <form id="contactform" action="//formspree.io/davidpetrey@yahoo.com" method="POST">
+                    <div>
+                        <label for="type">Program Type:</label>
+                        <br>
+
+                        <select required name="program-type" id="type">
+                            <option disabled selected value></option>
+                            <option value="Count Series">Count Series</option>
+                            <option value="Time Series">Time Series</option>
+                            <option value="Membership">Membership</option>
+                        </select>
+                        <br>
+                        <br>
+
+
+
+                        <label for="pname">Program Name:</label>
+                        <br>
+                        <input type="text" name="program-name" id="pname">
+                        <br>
+                        <br>
+
+
+                        <label for="online-scheduling">Allow online scheduling:</label>
+                        <br>
+                        <input type="radio" name="online-scheduling" value="yes" id="online-scheduling" required> Yes
+                        <input type="radio" name="online-scheduling" value="no" id="online-scheduling"> No
+                        <br>
+                        <br>
+
+
+
+                        <label for="capacity">Default capacity:</label>
+                        <input type="number" name="quantity" min="1" max="200" id="capacity" required>
+                        <br>
+                    </div>
+                    <div>
+
+
+                        <label for="tabs">Tabs this program is on:</label>
+                        <br>
+                        <input type="checkbox" id="tabs" value="Classes" name="Tab Shown"> Classes
+                        <br>
+                        <input type="checkbox" id="tabs" value="Appointments" name="Tab Shown"> Appointments
+                        <br>
+                        <input type="checkbox" id="tabs" value="Workshops" name="Tab Shown"> Workshops
+                        <br>
+                        <input type="checkbox" id="tabs" value="Outside" name="Tab Shown"> Outside
+                        <br>
+                        <input type="checkbox" id="tabs" value="Inside" name="Tab Shown"> Inside
+                        <br>
+                        <input type="checkbox" id="tabs" value="Gym" name="Tab Shown"> Gym
+                        <br>
+                        <br>
+
+                        <input type="submit" value="Submit" class="form-btn">
+                        <input type="button" value="Cancel" class="close form-btn">
+                    </div>
+                    <!-- Redirect URL -->
+                    <input type="hidden" name="_next" value="index.html"/>
+                </form>
+            </div>
+            <!-- <div class="modal-footer">
+      <h3>Modal Footer</h3>
+    </div> -->
+
+        </div>
+
+    </div>
+    <!-- End Modal -->
+
+
+
+    <script type="text/javascript" src="js/canvasjs.min.js"></script>
+    <script type="text/javascript" src="myscript.js"></script>
+    <script type="text/javascript" src="js/chartData.js"></script>
+
+    <script>
+    $(".menu").click(function(e) {
+        if ($(this).not("active")) {
+            $(this).siblings().removeClass("active");
+            $(this).addClass("active");
+        }
+    });
+    </script>
+</body>
+
+</html>
