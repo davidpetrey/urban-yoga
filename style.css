@@ -21,7 +21,7 @@ background: -webkit-linear-gradient(45deg, #edf7f3 0%, #eaf7f2 40%,#e6f6ef 61%,#
 background: linear-gradient(45deg, #edf7f3 0%, #eaf7f2 40%,#e6f6ef 61%,#edf7f2 62%,#edf7f2 62%,#ecf8f2 69%,#f1faf5 70%,#f1faf5 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edf7f3', endColorstr='#f1faf5',GradientType=1 );
  }
- 
+main {display:block;}
 main .logo {
      float: left;
  }
